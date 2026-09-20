@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+.email-section{
+    padding-left: 40px;
+    background-color: rgb(219, 220, 221,);
+}
+
+#link-A{
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.copy-btn ,.cv-btn{
+    background-color: rgb(255, 255, 255,);
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 15px;
+    border:1px solid white;
+    font-weight: bold;
+}
+
+ #emailButton,.copy-btn ,.cv-btn:hover{
+    cursor: pointer;
+}
+
+ol, li {
+    display: flex;
+    display: inline-block;
+}
+
+.profile-section{
+    border-radius: 50%;
+    /*position: absolute;*/
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-section img{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+/*----- the 1st  div----*/
+.container{
+     border: solid white;
+     max-height: 650px;
+     width: auto;
+     margin: auto;
+     background-color: rgb(219, 220, 221);
+     border-radius: 0px 0px 200px 200px;
+     top: 0px;   
+}
+
+.name-label{
+    position:absolute;
+    transform: rotate(-20deg);
+    top: 30%;
+    left: 54%;
+    background-color:#fff;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;   
+}
+.social-link{
+    text-align: end;
+    margin-right: 5%;
+    color: #000;
+    margin-top: -280px;
+    font-family: Arial, sans-serif; 
+}
+
+#Bui-pro{
+    text-align: center;
+    width: 370px;
+    margin: 320px auto;
+    top: 40px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   
+}
+
+.latest-contenor{
+    border: 1px solid #000;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 5px 10px 40px;
+    border-radius: 30px;
+    margin-top: -300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    
+}
+
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo-section {
+    background-color: #ffffff; 
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 250px;
+    margin-top: 0px;
+    margin-bottom: -100px;
+    /*border: solid #7c7474;*/
+    border-radius: 0px 0px 100px 100px;
+    position:sticky; 
+    
+}
+
+.logo-section img {
+    max-width: 120px; 
+    max-height: 70px;
+    background: #ffffff;
+    
+}
+
+#sec-bor{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 0px;
+    margin-top: 200px;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    max-height: 1900px;
+    font-size: 50px;
+    
+}
+
+#sec-p{
+  margin-top: 190px;
+  margin-bottom: auto;
+  font-weight: bold;
+ 
+}
+
+.services-bor{
+    border: 1px solid #fff;
+    width: 130px;
+    height: 50px;
+    margin-top: 70px;
+    border-radius: 35px;
+    transform: rotate(-30deg);
+    background: #ffffff;  
+}
+
+.services-bor:hover{
+    cursor:pointer;
+}
+
+#ser-horiz{
+    margin: 0px 150px 0px 150px;
+    border-color: #ffffff;
+}
+
+.three-bor{
+    
+    font-size: 16px;
+    margin-top: 100px;
+    /*border: 1px solid #5c5b5b;*/
+    margin-left: 130px;
+    gap: 15px;
+    width: 180px;
+    height: 150px;
+    text-align: left;   
+}
+
+.sec-bor-three-bor{
+    display: flex;
+    flex-wrap: wrap;
+   /*background-color: rgba(0, 0, 0, 0.1);*/   
+}
+
+h3{
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+    .img-poss{
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+    margin-top: 50px;
+   
+}
+
+    .end-container{
+    border: 1px solid#ffffff;
+    border-radius: 100px 100px 0px 0px;
+    background: #ffffff;
+    height: 700px;
+    margin-top: 40px;
+    
+}
+
+h1{
+   
+    margin-top: 250px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.email-bor{
+   
+    border-radius: 25px;
+    background: #000;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.email-bor:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.WhatsApp-bor{
+    border-radius: 15px;
+    background:#fff;
+    color: #000;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 12px;
+    border-color: rgb(227, 230, 230);  
+}
+
+.WhatsApp-bor:hover{
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
+#horiz{
+    margin: 100px 150px 10px 150px;
+    
+}
+
+.social-link2{
+    font-family: Arial, sans-serif;
+    text-align: end;
+    margin-right: 10%;
+    color: #000;
+    margin-top: 60px;
+    font-size: 18px;
+    
+}
+
+.copyright {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-left: 40px;
+    
+}
+
+/* fore animatione for icon*/
+.linkedin-text, .linkedin-icon, .Dribbble-text, .Dribbble-icon, .instagram-text, .instagram-icon:hover{
+    cursor: pointer;
+}
+
+.linkedin-text{
+    font-size: 18px; /* linkedin for text */
+}
+
+.linkedin-icon{
+    display: none; /* Linkedin hide the icon */
+  font-size: 24px;
+}
+
+.Dribbble-text{
+    font-size: 18px; /* Display Instagram text */
+}
+
+.Dribbble-icon{
+    display: none; /*  Display hide the icon */
+  font-size: 24px;
+}
+
+.instagram-text{
+    font-size: 18px; /* Instagram Instagram text */
+}
+
+.instagram-icon{
+    display: none; /* Inistagram hide the icon */
+    font-size: 24px;
+
+}
+/* Media query to switch to icon on smaller screens */
+@media (max-width: 700px) {
+    .instagram-text,.Dribbble-text, .linkedin-text,.email-corection{
+      display: none; /* Hide text on small screens */
+    }
+    
+     
+    .instagram-icon, .Dribbble-icon, .linkedin-icon{
+        display: inline; /* Show icon instead */ 
+      
+    }
+    
+}
+
+/* for eemail text convert to email button*/
+
+#emailButton{
+    border: 1px solid #000000;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    display: none;
+}
+@media(max-width: 700px){
+    .copy-btn,#link-A{
+        display: none;
+    }
+
+    #emailButton{
+        display:inline-block;
+        
+    }
+}
+
+  
